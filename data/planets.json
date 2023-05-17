@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Terra",
+    "habitantes": 1000,
+    "corDoCeu": "azul"
+  },
+  {
+    "id": 2,
+    "nome": "Venus",
+    "habitantes": 600,
+    "corDoCeu": "laranja"
+  },
+  {
+    "id": 3,
+    "nome": "Lua",
+    "habitantes": 0,
+    "corDoCeu": "preto"
+  }
+]
