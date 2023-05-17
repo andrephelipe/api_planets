@@ -1,8 +1,12 @@
-const { readPlanest } = require('./utils/fsUtils');
+const { readPlanets, writeNewPlanet } = require('./utils/fsUtils');
 
 const main = async () => {
-  const planets = await readPlanest();
-  console.log(planets);
-}
+  writeNewPlanet({
+      "id": 4,
+      "nome": "Plutao",
+      "habitantes": 19,
+      "corDoCeu": "verde"
+  })
+};
 
 main();
